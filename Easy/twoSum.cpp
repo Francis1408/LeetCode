@@ -1,5 +1,5 @@
 //1. EASY - twoSum
-
+// SOLUTION =  Saves te complements in a hashmap for future search
 #include <iostream>
 #include <vector>
 #include <unordered_map>

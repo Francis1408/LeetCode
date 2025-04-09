@@ -1,5 +1,5 @@
 // EASY - 121. Best Time to Buy and Sell Stock
-
+// SOLUTION = Always trying to find the minimum in the array
 #include <iostream>
 #include <vector>
 #include <unordered_map>
