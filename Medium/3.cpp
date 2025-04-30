@@ -34,8 +34,8 @@ class Solution {
                 occurances[s[i]] = i + 1;
             }
 
-            currentLength = s.length() - 1 - beginPointer; 
-            
+            currentLength = s.length() - beginPointer; 
+
             if(currentLength > maxLength) maxLength = currentLength;
 
             return maxLength;
