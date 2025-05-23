@@ -1,4 +1,9 @@
 // MEDIUM - 452. Minimum Number of Arrows to Burst Balloons
+// SOLUTION - Sort the ballons by end values. It means that lower values will not have the range to
+// pop him plus another balloon. After it, we iterate through the sorted array and compare the end value with the
+// beginning value of the follwing ballons. If the end is bigger or equal, it means that we can pop them together. 
+// Otherwise, we take the end from the follwing one and repeat the process for the following ballons 
+
 
 #include<iostream>
 #include<vector>
